@@ -157,3 +157,60 @@ nav ul li a:hover {
     line-height: 25px;
     padding-bottom: 50px;
 }
+
+/* my recipie section */
+
+.my_recipie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_recipie h2 {
+    font-size: 40px;
+    color: rgb(29, 26, 26, 0.9);
+    padding-bottom: 25px;
+}
+
+.my_recipie p {
+    text-align: justify;
+    color: #222;
+    padding-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.card_section {
+    width: 25%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-left: 18px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px 10px rgba(0, 0, 0, 0.1);
+}
+
+.car_img {
+    width: 300px;
+}
+
+.car_img img {
+    width: 100%;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.card_section h1 {
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.card_section p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
