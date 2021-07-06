@@ -114,3 +114,46 @@ nav ul li a:hover {
     padding-left: 120px;
     width: 100%;
 }
+
+/* about me section */
+
+.about {
+    height: 100%;
+    background: url('img/7.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 40px;
+}
+
+.about_me {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.left_side_content {
+    width: 50%;
+}
+
+.right_side_content {
+    width: 35%;
+    padding-top: 80px;
+}
+
+.left_side_content img {
+    width: 350px;
+    padding-left: 40px;
+}
+
+.right_side_content h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: rgb(29, 26, 26, 0.9);
+}
+
+.right_side_content p {
+    text-align: justify;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
