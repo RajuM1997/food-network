@@ -214,3 +214,56 @@ nav ul li a:hover {
     line-height: 25px;
     padding-bottom: 10px;
 }
+
+/* contact me section */
+
+.contact {
+    text-align: center;
+    font-size: 40px;
+}
+
+.padding {
+    padding-bottom: 80px;
+}
+
+.contact_me {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    box-shadow: 5px 5px 25px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px 20px;
+    font-size: 18px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input,
+textarea:focus {
+    outline: none;
+}
+
+.submit_btn {
+    text-decoration: none;
+    background: crimson;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.submit_btn:hover {
+    background: transparent;
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+.btn {
+    padding-top: 20px;
+}
