@@ -50,3 +50,67 @@ nav ul li a {
 nav ul li a:hover {
     color: orange;
 }
+
+.header,
+.about,
+.recipie,
+.contact,
+.contact_me {
+    margin-bottom: 80px;
+}
+
+/* header section */
+
+.header_section {
+    display: flex;
+    margin: 0 5%;
+    height: 100%;
+}
+
+.main_text {
+    width: 40%;
+    margin-top: 150px;
+    padding-left: 25px;
+}
+
+.main_text span {
+    color: orange;
+}
+
+.main_text h1 {
+    font-size: 50px;
+    color: rgb(29, 26, 26, 0.7);
+    padding-bottom: 30px;
+}
+
+.main_text p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 26px;
+    color: #999;
+    padding-bottom: 35px;
+}
+
+.common_btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 35px;
+    font-weight: 600;
+    background: linear-gradient(45deg, rgba(243, 168, 30, 0.7), tomato);
+    color: #fff;
+    border-radius: 34px;
+}
+
+.common_btn:hover {
+    background: linear-gradient(45deg, tomato, rgba(243, 168, 30, 0.7));
+}
+
+.img_section {
+    width: 60%;
+}
+
+.img_section img {
+    padding-top: 30px;
+    padding-left: 120px;
+    width: 100%;
+}
